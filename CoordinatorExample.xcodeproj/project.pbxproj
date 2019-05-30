@@ -12,6 +12,11 @@
 		F8E7AEAA229F8564000A68C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E7AEA8229F8564000A68C3 /* Main.storyboard */; };
 		F8E7AEAC229F8566000A68C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E7AEAB229F8566000A68C3 /* Assets.xcassets */; };
 		F8E7AEAF229F8566000A68C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E7AEAD229F8566000A68C3 /* LaunchScreen.storyboard */; };
+		F8E7AEB7229F866E000A68C3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEB6229F866E000A68C3 /* Coordinator.swift */; };
+		F8E7AEB9229F909B000A68C3 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEB8229F909B000A68C3 /* Storyboarded.swift */; };
+		F8E7AEBB229F942D000A68C3 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEBA229F942D000A68C3 /* MainCoordinator.swift */; };
+		F8E7AEBD229FAF3B000A68C3 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEBC229FAF3B000A68C3 /* BuyViewController.swift */; };
+		F8E7AEBF229FAF4A000A68C3 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEBE229FAF4A000A68C3 /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		F8E7AEAB229F8566000A68C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8E7AEAE229F8566000A68C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8E7AEB0229F8566000A68C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8E7AEB6229F866E000A68C3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F8E7AEB8229F909B000A68C3 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		F8E7AEBA229F942D000A68C3 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		F8E7AEBC229FAF3B000A68C3 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		F8E7AEBE229FAF4A000A68C3 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +64,13 @@
 		F8E7AEA3229F8564000A68C3 /* CoordinatorExample */ = {
 			isa = PBXGroup;
 			children = (
-				F8E7AEA4229F8564000A68C3 /* AppDelegate.swift */,
+				F8E7AEB6229F866E000A68C3 /* Coordinator.swift */,
+				F8E7AEB8229F909B000A68C3 /* Storyboarded.swift */,
+				F8E7AEBA229F942D000A68C3 /* MainCoordinator.swift */,
 				F8E7AEA6229F8564000A68C3 /* ViewController.swift */,
+				F8E7AEBC229FAF3B000A68C3 /* BuyViewController.swift */,
+				F8E7AEBE229FAF4A000A68C3 /* CreateAccountViewController.swift */,
+				F8E7AEA4229F8564000A68C3 /* AppDelegate.swift */,
 				F8E7AEA8229F8564000A68C3 /* Main.storyboard */,
 				F8E7AEAB229F8566000A68C3 /* Assets.xcassets */,
 				F8E7AEAD229F8566000A68C3 /* LaunchScreen.storyboard */,
@@ -137,6 +152,11 @@
 			files = (
 				F8E7AEA7229F8564000A68C3 /* ViewController.swift in Sources */,
 				F8E7AEA5229F8564000A68C3 /* AppDelegate.swift in Sources */,
+				F8E7AEB7229F866E000A68C3 /* Coordinator.swift in Sources */,
+				F8E7AEBB229F942D000A68C3 /* MainCoordinator.swift in Sources */,
+				F8E7AEBF229FAF4A000A68C3 /* CreateAccountViewController.swift in Sources */,
+				F8E7AEB9229F909B000A68C3 /* Storyboarded.swift in Sources */,
+				F8E7AEBD229FAF3B000A68C3 /* BuyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
