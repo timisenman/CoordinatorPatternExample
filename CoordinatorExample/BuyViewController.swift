@@ -10,7 +10,7 @@ import UIKit
 
 class BuyViewController: UIViewController, Storyboarded {
 
-    weak var coordinator: MainCoordinator?
+    weak var coordinator: BuyCoordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +18,10 @@ class BuyViewController: UIViewController, Storyboarded {
         // Do any additional setup after loading the view.
     }
     
+//    override func viewWillDisappear(_ animated: Bool) {
+//        super.viewWillDisappear(true)
+//        coordinator?.didFinishBuying()
+//    }
 
     /*
     // MARK: - Navigation

@@ -17,6 +17,7 @@
 		F8E7AEBB229F942D000A68C3 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEBA229F942D000A68C3 /* MainCoordinator.swift */; };
 		F8E7AEBD229FAF3B000A68C3 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEBC229FAF3B000A68C3 /* BuyViewController.swift */; };
 		F8E7AEBF229FAF4A000A68C3 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEBE229FAF4A000A68C3 /* CreateAccountViewController.swift */; };
+		F8E7AEC1229FC4AE000A68C3 /* BuyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEC0229FC4AE000A68C3 /* BuyCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F8E7AEBA229F942D000A68C3 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		F8E7AEBC229FAF3B000A68C3 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		F8E7AEBE229FAF4A000A68C3 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		F8E7AEC0229FC4AE000A68C3 /* BuyCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				F8E7AEBA229F942D000A68C3 /* MainCoordinator.swift */,
 				F8E7AEA6229F8564000A68C3 /* ViewController.swift */,
 				F8E7AEBC229FAF3B000A68C3 /* BuyViewController.swift */,
+				F8E7AEC0229FC4AE000A68C3 /* BuyCoordinator.swift */,
 				F8E7AEBE229FAF4A000A68C3 /* CreateAccountViewController.swift */,
 				F8E7AEA4229F8564000A68C3 /* AppDelegate.swift */,
 				F8E7AEA8229F8564000A68C3 /* Main.storyboard */,
@@ -153,6 +156,7 @@
 				F8E7AEA7229F8564000A68C3 /* ViewController.swift in Sources */,
 				F8E7AEA5229F8564000A68C3 /* AppDelegate.swift in Sources */,
 				F8E7AEB7229F866E000A68C3 /* Coordinator.swift in Sources */,
+				F8E7AEC1229FC4AE000A68C3 /* BuyCoordinator.swift in Sources */,
 				F8E7AEBB229F942D000A68C3 /* MainCoordinator.swift in Sources */,
 				F8E7AEBF229FAF4A000A68C3 /* CreateAccountViewController.swift in Sources */,
 				F8E7AEB9229F909B000A68C3 /* Storyboarded.swift in Sources */,
