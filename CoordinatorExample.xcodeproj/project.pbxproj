@@ -15,8 +15,9 @@
 		F8E7AEB7229F866E000A68C3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEB6229F866E000A68C3 /* Coordinator.swift */; };
 		F8E7AEB9229F909B000A68C3 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEB8229F909B000A68C3 /* Storyboarded.swift */; };
 		F8E7AEBB229F942D000A68C3 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEBA229F942D000A68C3 /* MainCoordinator.swift */; };
-		F8E7AEBD229FAF3B000A68C3 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEBC229FAF3B000A68C3 /* BuyViewController.swift */; };
 		F8E7AEBF229FAF4A000A68C3 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEBE229FAF4A000A68C3 /* CreateAccountViewController.swift */; };
+		F8E7AEC522A1040F000A68C3 /* Buying.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEC422A1040F000A68C3 /* Buying.swift */; };
+		F8E7AEC722A10448000A68C3 /* AccountCreating.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AEC622A10448000A68C3 /* AccountCreating.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +31,9 @@
 		F8E7AEB6229F866E000A68C3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		F8E7AEB8229F909B000A68C3 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		F8E7AEBA229F942D000A68C3 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		F8E7AEBC229FAF3B000A68C3 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
 		F8E7AEBE229FAF4A000A68C3 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		F8E7AEC422A1040F000A68C3 /* Buying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buying.swift; sourceTree = "<group>"; };
+		F8E7AEC622A10448000A68C3 /* AccountCreating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreating.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +69,9 @@
 				F8E7AEB6229F866E000A68C3 /* Coordinator.swift */,
 				F8E7AEB8229F909B000A68C3 /* Storyboarded.swift */,
 				F8E7AEBA229F942D000A68C3 /* MainCoordinator.swift */,
+				F8E7AEC422A1040F000A68C3 /* Buying.swift */,
+				F8E7AEC622A10448000A68C3 /* AccountCreating.swift */,
 				F8E7AEA6229F8564000A68C3 /* ViewController.swift */,
-				F8E7AEBC229FAF3B000A68C3 /* BuyViewController.swift */,
 				F8E7AEBE229FAF4A000A68C3 /* CreateAccountViewController.swift */,
 				F8E7AEA4229F8564000A68C3 /* AppDelegate.swift */,
 				F8E7AEA8229F8564000A68C3 /* Main.storyboard */,
@@ -154,9 +157,10 @@
 				F8E7AEA5229F8564000A68C3 /* AppDelegate.swift in Sources */,
 				F8E7AEB7229F866E000A68C3 /* Coordinator.swift in Sources */,
 				F8E7AEBB229F942D000A68C3 /* MainCoordinator.swift in Sources */,
+				F8E7AEC722A10448000A68C3 /* AccountCreating.swift in Sources */,
 				F8E7AEBF229FAF4A000A68C3 /* CreateAccountViewController.swift in Sources */,
+				F8E7AEC522A1040F000A68C3 /* Buying.swift in Sources */,
 				F8E7AEB9229F909B000A68C3 /* Storyboarded.swift in Sources */,
-				F8E7AEBD229FAF3B000A68C3 /* BuyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

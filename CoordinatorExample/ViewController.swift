@@ -10,21 +10,24 @@ import UIKit
 
 class ViewController: UIViewController, Storyboarded {
 
-    weak var coordinator: MainCoordinator?
+    weak var coordinator: (Buying & AccountCreating)?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    var buyAction: (() -> Void)?
+    var createAccountAction: (() -> Void)?
+   
     @IBAction func buyTapped(_ sender: Any) {
         print("Buy tapped")
-        coordinator?.buySubscription()
+        buyAction?()
     }
     
     @IBAction func createAccount(_ sender: Any) {
         print("Create account tapped")
-        coordinator?.createAccount()
+        createAccountAction?()
     }
     
     

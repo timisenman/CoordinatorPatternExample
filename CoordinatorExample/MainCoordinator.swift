@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainCoordinator: Coordinator {
+class MainCoordinator: Coordinator, Buying, AccountCreating {
     
     var childCoordinators = [Coordinator]()
     var navigationController: UINavigationController
@@ -24,14 +24,18 @@ class MainCoordinator: Coordinator {
     }
     
     func buySubscription() {
-        let vc = BuyViewController.instantiate()
-        vc.coordinator = self
+        let vc = ViewController.instantiate()
+        vc.buyAction = { [weak self] in
+            self?.buySubscription()
+        }
         navigationController.pushViewController(vc, animated: true)
     }
     
     func createAccount() {
-        let vc = CreateAccountViewController.instantiate()
-        vc.coordinator = self
+        let vc = ViewController.instantiate()
+        vc.createAccountAction = { [weak self] in
+            self?.createAccount()
+        }
         navigationController.pushViewController(vc, animated: true)
     }
 }
